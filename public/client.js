@@ -100,6 +100,11 @@ var view = {
     return deleteButton;
   },
   setUpEventListeners: function() {
+    // JavaScript EVENT DELEGATION PATTERN: Uses event bubbling
+    // Use a single event listener for all clicks on the parent element instead of every 
+    //individual child li to be less tedious. 
+    // Use the event object to figure out which item was clicked. Delete the todo only if
+    // the item clicked was a delete button.
     var todosUl = document.querySelector('ul');
     todosUl.addEventListener('click', function(event) {
       // get the element that was clicked on frm the event var.
