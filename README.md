@@ -1,7 +1,9 @@
-Welcome to Practical JavaScript!
-============================
+Practical ToDo App - Version 10
 
-This is the finished code for Version 9 of the
-application for Practical JavaScript.
+- using vanilla OOP JavaScript
+- higher order functions and callback functions
 
-For more details, visit practicaljavascript.net.
+Needs:
+- css
+- form validation
+- changeTodo
